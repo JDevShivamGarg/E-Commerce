@@ -35,12 +35,12 @@ function App() {
       <Navbar />
       <div className="flex-grow">
         <Routes>
-          <Route path="/E-Commerce/login" element={<Login />} />
-          <Route path="/E-Commerce/signup" element={<Signup />} />
-          <Route path="/E-Commerce/forget-pass" element={<ForgetPage />} />
-          <Route path="/E-Commerce/" element={<ProductListElement />} />
-          <Route path="/E-Commerce/productDetails/:productId" element={<ProductDetailsElement />} />
-          <Route path="/E-Commerce/cart" element={<CartPageElement />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/forget-pass" element={<ForgetPage />} />
+          <Route path="/" element={<ProductListElement />} />
+          <Route path="/productDetails/:productId" element={<ProductDetailsElement />} />
+          <Route path="/cart" element={<CartPageElement />} />
           <Route path="*" element={<ErrorElement />} />
         </Routes>
       </div>
