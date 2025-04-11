@@ -41,6 +41,7 @@ function App() {
           <Route path="/" element={<ProductListElement />} />
           <Route path="/productDetails/:productId" element={<ProductDetailsElement />} />
           <Route path="/cart" element={<CartPageElement />} />
+          <Route path="/E-Commerce" element={<Navigate to="/" />}/>
           <Route path="*" element={<ErrorElement />} />
         </Routes>
       </div>
