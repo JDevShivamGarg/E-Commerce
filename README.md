@@ -1,2 +1,2 @@
 ## Deployed
-<a href="https://jdevshivamgarg.github.io/E-Commerce">Link</a>
+<a href="https://JDevShivamGarg.github.io/E-Commerce/">Link</a>
