@@ -11,7 +11,6 @@ import Login from './Login';
 import ForgetPage from './ForgetPage';
 
 function App() {
-  const navigate = useNavigate();
 
   const products = useMemo(() => [
     { id: 1, photo: 'https://websitedemos.net/custom-printing-02/wp-content/uploads/sites/459/2018/06/mug-white.jpg', category: 'Mugs', name: 'Personalised Mugs', price: 15.00 },
