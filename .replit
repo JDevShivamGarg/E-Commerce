@@ -1,0 +1,9 @@
+run="npm run dev"
+entrypoint="src/App.jsx"
+modules = ["nodejs-18"]
+
+[nix]
+channel='unstable'
+[[ports]]
+localPort = 5173
+externalPort = 80
