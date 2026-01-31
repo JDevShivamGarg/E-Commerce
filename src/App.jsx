@@ -2,6 +2,7 @@ import React, { useMemo, useCallback } from 'react';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import ProductList from './ProductList';
 import Navbar from './Navbar';
+import DisclaimerBanner from './DisclaimerBanner';
 import Footer from './Footer';
 import ProductDetails from './ProductDetails';
 import CartPage from './CartPage';
@@ -31,6 +32,7 @@ function App() {
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-100">
+      <DisclaimerBanner />
       <Navbar />
       <div className="flex-grow">
         <Routes>
